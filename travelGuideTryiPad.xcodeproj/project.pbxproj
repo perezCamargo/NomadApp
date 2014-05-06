@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108D5AB18D10A990043BE32 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108D5AA18D10A990043BE32 /* CameraViewController.m */; };
+		0108D5AE18D1222E0043BE32 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108D5AD18D1222E0043BE32 /* MainTabViewController.m */; };
+		010F293018CF463A0019DC52 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F292F18CF463A0019DC52 /* iCarousel.m */; };
+		010F294D18CF82700019DC52 /* PopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F294C18CF82700019DC52 /* PopOverViewController.m */; };
+		01156B0A18D968AD00A5D959 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 01156B0918D968AD00A5D959 /* Reachability.m */; };
+		01156B1018D97AD900A5D959 /* Fiesta Inndemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01156B0B18D97AD900A5D959 /* Fiesta Inndemo.png */; };
+		01156B1118D97AD900A5D959 /* Holiday Inndemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01156B0C18D97AD900A5D959 /* Holiday Inndemo.png */; };
+		01156B1218D97AD900A5D959 /* Hostelworlddemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01156B0D18D97AD900A5D959 /* Hostelworlddemo.png */; };
+		01156B1318D97AD900A5D959 /* Tripadvisordemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01156B0E18D97AD900A5D959 /* Tripadvisordemo.png */; };
+		01156B1418D97AD900A5D959 /* Lonely Planetdemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01156B0F18D97AD900A5D959 /* Lonely Planetdemo.png */; };
+		0127EC4018C68AF0007B2FD1 /* DisplayInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0127EC3F18C68AF0007B2FD1 /* DisplayInfoViewController.m */; };
+		013534CA18D2422700A13969 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534C918D2422700A13969 /* default@2x.png */; };
+		013534CC18D242F100A13969 /* nomadApp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534CB18D242F100A13969 /* nomadApp1.png */; };
+		013534D218D2458200A13969 /* allPlaces.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534CD18D2458200A13969 /* allPlaces.png */; };
+		013534D318D2458200A13969 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534CE18D2458200A13969 /* camera.png */; };
+		013534D418D2458200A13969 /* feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534CF18D2458200A13969 /* feedback.png */; };
+		013534D518D2458200A13969 /* seeAllPlaces.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534D018D2458200A13969 /* seeAllPlaces.png */; };
+		013534D618D2458200A13969 /* wonders.png in Resources */ = {isa = PBXBuildFile; fileRef = 013534D118D2458200A13969 /* wonders.png */; };
+		013E7CA118C767FB004FAA55 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013E7CA018C767FB004FAA55 /* MapKit.framework */; };
+		013E7CB418C79BD2004FAA55 /* TheMapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E7CB318C79BD2004FAA55 /* TheMapPin.m */; };
+		014163B218C6D64700CF19D1 /* MapLocationPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014163B118C6D64700CF19D1 /* MapLocationPlaceViewController.m */; };
+		01454F9418C836780049D6C6 /* HotelHostalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01454F9318C836780049D6C6 /* HotelHostalViewController.m */; };
+		01454F9718C836890049D6C6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01454F9618C836890049D6C6 /* WebViewController.m */; };
+		01454F9A18C86D5B0049D6C6 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01454F9918C86D5B0049D6C6 /* TableCell.m */; };
+		01454F9D18C8876C0049D6C6 /* TouristicCountriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01454F9C18C8876C0049D6C6 /* TouristicCountriesViewController.m */; };
+		01454FA018C88FC70049D6C6 /* BestPlacesByCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01454F9F18C88FC70049D6C6 /* BestPlacesByCountryViewController.m */; };
+		0146059A18C8A2A700EF8504 /* MapAllPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146059918C8A2A700EF8504 /* MapAllPlacesViewController.m */; };
+		015EABE218CE18C8000D4E60 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015EABE118CE18C8000D4E60 /* FeedBackViewController.m */; };
+		016D707C18D0250400E9C373 /* BRAZIL.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D705918D0250400E9C373 /* BRAZIL.png */; };
+		016D707D18D0250400E9C373 /* Chichen Itza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D705A18D0250400E9C373 /* Chichen Itza.jpg */; };
+		016D707E18D0250400E9C373 /* Chichen Itza1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D705B18D0250400E9C373 /* Chichen Itza1.jpg */; };
+		016D707F18D0250400E9C373 /* CHINA.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D705C18D0250400E9C373 /* CHINA.png */; };
+		016D708018D0250400E9C373 /* Christ the Redeemer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D705D18D0250400E9C373 /* Christ the Redeemer.jpg */; };
+		016D708118D0250400E9C373 /* Christ the Redeemer1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D705E18D0250400E9C373 /* Christ the Redeemer1.jpg */; };
+		016D708218D0250400E9C373 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D705F18D0250400E9C373 /* close.png */; };
+		016D708318D0250400E9C373 /* currentLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706018D0250400E9C373 /* currentLocation.png */; };
+		016D708418D0250400E9C373 /* EGYPT.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706118D0250400E9C373 /* EGYPT.png */; };
+		016D708518D0250400E9C373 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706218D0250400E9C373 /* facebook.png */; };
+		016D708618D0250400E9C373 /* Fiesta Inn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706318D0250400E9C373 /* Fiesta Inn.png */; };
+		016D708718D0250400E9C373 /* Great Wall of China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D706418D0250400E9C373 /* Great Wall of China.jpg */; };
+		016D708818D0250400E9C373 /* Great Wall of China1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D706518D0250400E9C373 /* Great Wall of China1.jpg */; };
+		016D708918D0250400E9C373 /* Holiday Inn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706618D0250400E9C373 /* Holiday Inn.png */; };
+		016D708A18D0250400E9C373 /* Hostelworld.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706718D0250400E9C373 /* Hostelworld.png */; };
+		016D708B18D0250400E9C373 /* INDIA.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706818D0250400E9C373 /* INDIA.png */; };
+		016D708C18D0250400E9C373 /* ITALY.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706918D0250400E9C373 /* ITALY.png */; };
+		016D708D18D0250400E9C373 /* JORDAN.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706A18D0250400E9C373 /* JORDAN.png */; };
+		016D708E18D0250400E9C373 /* locationPlace.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706B18D0250400E9C373 /* locationPlace.png */; };
+		016D708F18D0250400E9C373 /* Lonely Planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706C18D0250400E9C373 /* Lonely Planet.png */; };
+		016D709018D0250400E9C373 /* Machu Picchu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D706D18D0250400E9C373 /* Machu Picchu.jpg */; };
+		016D709118D0250400E9C373 /* Machu Picchu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D706E18D0250400E9C373 /* Machu Picchu1.jpg */; };
+		016D709218D0250400E9C373 /* mapType.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D706F18D0250400E9C373 /* mapType.png */; };
+		016D709318D0250400E9C373 /* MEXICO.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707018D0250400E9C373 /* MEXICO.png */; };
+		016D709418D0250400E9C373 /* PERU.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707118D0250400E9C373 /* PERU.png */; };
+		016D709518D0250400E9C373 /* Petra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707218D0250400E9C373 /* Petra.jpg */; };
+		016D709618D0250400E9C373 /* Petra1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707318D0250400E9C373 /* Petra1.jpg */; };
+		016D709718D0250400E9C373 /* Roman Colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707418D0250400E9C373 /* Roman Colosseum.jpg */; };
+		016D709818D0250400E9C373 /* Roman Colosseum1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707518D0250400E9C373 /* Roman Colosseum1.jpg */; };
+		016D709918D0250400E9C373 /* Taj Mahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707618D0250400E9C373 /* Taj Mahal.jpg */; };
+		016D709A18D0250400E9C373 /* Taj Mahal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016D707718D0250400E9C373 /* Taj Mahal1.jpg */; };
+		016D709B18D0250400E9C373 /* Tripadvisor.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707818D0250400E9C373 /* Tripadvisor.png */; };
+		016D709C18D0250400E9C373 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707918D0250400E9C373 /* twitter.png */; };
+		016D709D18D0250400E9C373 /* zoomIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707A18D0250400E9C373 /* zoomIn.png */; };
+		016D709E18D0250400E9C373 /* zoomOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 016D707B18D0250400E9C373 /* zoomOut.png */; };
+		01A04BFA18C4EFC300D069F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04BF918C4EFC300D069F3 /* Foundation.framework */; };
+		01A04BFC18C4EFC300D069F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04BFB18C4EFC300D069F3 /* CoreGraphics.framework */; };
+		01A04BFE18C4EFC300D069F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04BFD18C4EFC300D069F3 /* UIKit.framework */; };
+		01A04C0418C4EFC300D069F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01A04C0218C4EFC300D069F3 /* InfoPlist.strings */; };
+		01A04C0618C4EFC300D069F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C0518C4EFC300D069F3 /* main.m */; };
+		01A04C0A18C4EFC300D069F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C0918C4EFC300D069F3 /* AppDelegate.m */; };
+		01A04C0D18C4EFC300D069F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A04C0B18C4EFC300D069F3 /* Main.storyboard */; };
+		01A04C1018C4EFC300D069F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C0F18C4EFC300D069F3 /* ViewController.m */; };
+		01A04C1218C4EFC300D069F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A04C1118C4EFC300D069F3 /* Images.xcassets */; };
+		01A04C1918C4EFC300D069F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04C1818C4EFC300D069F3 /* XCTest.framework */; };
+		01A04C1A18C4EFC300D069F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04BF918C4EFC300D069F3 /* Foundation.framework */; };
+		01A04C1B18C4EFC300D069F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A04BFD18C4EFC300D069F3 /* UIKit.framework */; };
+		01A04C2318C4EFC300D069F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01A04C2118C4EFC300D069F3 /* InfoPlist.strings */; };
+		01A04C2518C4EFC300D069F3 /* travelGuideTryiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C2418C4EFC300D069F3 /* travelGuideTryiPadTests.m */; };
+		01A04C3018C4F23900D069F3 /* TheHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C2F18C4F23900D069F3 /* TheHeader.m */; };
+		01A04C3318C4F24700D069F3 /* TheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C3218C4F24700D069F3 /* TheCell.m */; };
+		01A04C3618C4F65C00D069F3 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A04C3518C4F65C00D069F3 /* DataController.m */; };
+		01A4786518D0D34300F90197 /* Chichen Itza2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4785E18D0D34300F90197 /* Chichen Itza2.jpg */; };
+		01A4786618D0D34300F90197 /* Christ the Redeemer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4785F18D0D34300F90197 /* Christ the Redeemer2.jpg */; };
+		01A4786718D0D34300F90197 /* Great Wall of China2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786018D0D34300F90197 /* Great Wall of China2.jpg */; };
+		01A4786818D0D34300F90197 /* Machu Picchu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786118D0D34300F90197 /* Machu Picchu2.jpg */; };
+		01A4786918D0D34300F90197 /* Petra2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786218D0D34300F90197 /* Petra2.jpg */; };
+		01A4786A18D0D34300F90197 /* Roman Colosseum2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786318D0D34300F90197 /* Roman Colosseum2.jpg */; };
+		01A4786B18D0D34300F90197 /* Taj Mahal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786418D0D34300F90197 /* Taj Mahal2.jpg */; };
+		01A4786E18D0D44F00F90197 /* Hosteling International.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4786D18D0D44F00F90197 /* Hosteling International.jpg */; };
+		01A4787218D0D5D800F90197 /* ARGENTINA.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787118D0D5D800F90197 /* ARGENTINA.png */; };
+		01A4789318D0D66300F90197 /* Acapulco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787318D0D66300F90197 /* Acapulco.jpg */; };
+		01A4789418D0D66300F90197 /* Amman City And Citadel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787418D0D66300F90197 /* Amman City And Citadel.jpg */; };
+		01A4789518D0D66300F90197 /* Bariloche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787518D0D66300F90197 /* Bariloche.jpg */; };
+		01A4789618D0D66300F90197 /* Buenos Aires.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787618D0D66300F90197 /* Buenos Aires.jpg */; };
+		01A4789718D0D66300F90197 /* Canals of Venice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787718D0D66300F90197 /* Canals of Venice.jpg */; };
+		01A4789818D0D66300F90197 /* Copper Canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787818D0D66300F90197 /* Copper Canyon.jpg */; };
+		01A4789918D0D66300F90197 /* Fernando de Noronha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787918D0D66300F90197 /* Fernando de Noronha.jpg */; };
+		01A4789A18D0D66300F90197 /* Guanajuato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787A18D0D66300F90197 /* Guanajuato.jpg */; };
+		01A4789B18D0D66300F90197 /* Huacachina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787B18D0D66300F90197 /* Huacachina.jpg */; };
+		01A4789C18D0D66300F90197 /* Iguazu Falls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787C18D0D66300F90197 /* Iguazu Falls.jpg */; };
+		01A4789D18D0D66300F90197 /* Jerash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787D18D0D66300F90197 /* Jerash.jpg */; };
+		01A4789E18D0D66300F90197 /* Kanha National Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787E18D0D66300F90197 /* Kanha National Park.jpg */; };
+		01A4789F18D0D66300F90197 /* Karnak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4787F18D0D66300F90197 /* Karnak.jpg */; };
+		01A478A018D0D66300F90197 /* Kerala backwaters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788018D0D66300F90197 /* Kerala backwaters.jpg */; };
+		01A478A118D0D66300F90197 /* Lake Palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788118D0D66300F90197 /* Lake Palace.jpg */; };
+		01A478A218D0D66300F90197 /* Leshan Giant Buddha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788218D0D66300F90197 /* Leshan Giant Buddha.jpg */; };
+		01A478A318D0D66300F90197 /* Li River Cruise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788318D0D66300F90197 /* Li River Cruise.jpg */; };
+		01A478A418D0D66300F90197 /* Los Glaciares.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788418D0D66300F90197 /* Los Glaciares.jpg */; };
+		01A478A518D0D66300F90197 /* Manarola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788518D0D66300F90197 /* Manarola.jpg */; };
+		01A478A618D0D66300F90197 /* Palolem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788618D0D66300F90197 /* Palolem.jpg */; };
+		01A478A818D0D66300F90197 /* Potala Palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788818D0D66300F90197 /* Potala Palace.jpg */; };
+		01A478A918D0D66300F90197 /* Red Sea Reef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788918D0D66300F90197 /* Red Sea Reef.jpg */; };
+		01A478AA18D0D66300F90197 /* Rio Carnival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788A18D0D66300F90197 /* Rio Carnival.jpg */; };
+		01A478AB18D0D66300F90197 /* River Nile Cruise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788B18D0D66300F90197 /* River Nile Cruise.jpg */; };
+		01A478AC18D0D66300F90197 /* San Gimignano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788C18D0D66300F90197 /* San Gimignano.jpg */; };
+		01A478AD18D0D66300F90197 /* Santa Catalina Monastery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788D18D0D66300F90197 /* Santa Catalina Monastery.jpg */; };
+		01A478AE18D0D66300F90197 /* Teotihuacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788E18D0D66300F90197 /* Teotihuacan.jpg */; };
+		01A478AF18D0D66300F90197 /* Trujillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4788F18D0D66300F90197 /* Trujillo.jpg */; };
+		01A478B018D0D66300F90197 /* Uros Islands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4789018D0D66300F90197 /* Uros Islands.jpg */; };
+		01A478B118D0D66300F90197 /* Virupaksha Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4789118D0D66300F90197 /* Virupaksha Temple.jpg */; };
+		01A478B218D0D66300F90197 /* Wadi Rum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A4789218D0D66300F90197 /* Wadi Rum.jpg */; };
+		01E3579918D2B55C00262380 /* nomadAppAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E3579818D2B55C00262380 /* nomadAppAbout.png */; };
+		01E357A618D2CEF800262380 /* The Great Pyramid of Giza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01E357A518D2CEF800262380 /* The Great Pyramid of Giza.jpg */; };
+		01EB5A9A18C9103400BF6BE2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EB5A9918C9103400BF6BE2 /* libsqlite3.0.dylib */; };
+		01EFF0C018D0D789005184C9 /* Piazza del Campo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01EFF0BF18D0D789005184C9 /* Piazza del Campo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A04C1C18C4EFC300D069F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A04BEE18C4EFC300D069F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01A04BF518C4EFC300D069F3;
+			remoteInfo = travelGuideTryiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0108D5A918D10A990043BE32 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		0108D5AA18D10A990043BE32 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		0108D5AC18D1222E0043BE32 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		0108D5AD18D1222E0043BE32 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		010F292E18CF463A0019DC52 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		010F292F18CF463A0019DC52 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		010F294B18CF82700019DC52 /* PopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverViewController.h; sourceTree = "<group>"; };
+		010F294C18CF82700019DC52 /* PopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverViewController.m; sourceTree = "<group>"; };
+		01156B0818D968AD00A5D959 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		01156B0918D968AD00A5D959 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		01156B0B18D97AD900A5D959 /* Fiesta Inndemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fiesta Inndemo.png"; sourceTree = "<group>"; };
+		01156B0C18D97AD900A5D959 /* Holiday Inndemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holiday Inndemo.png"; sourceTree = "<group>"; };
+		01156B0D18D97AD900A5D959 /* Hostelworlddemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hostelworlddemo.png; sourceTree = "<group>"; };
+		01156B0E18D97AD900A5D959 /* Tripadvisordemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tripadvisordemo.png; sourceTree = "<group>"; };
+		01156B0F18D97AD900A5D959 /* Lonely Planetdemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lonely Planetdemo.png"; sourceTree = "<group>"; };
+		0127EC3E18C68AF0007B2FD1 /* DisplayInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayInfoViewController.h; sourceTree = "<group>"; };
+		0127EC3F18C68AF0007B2FD1 /* DisplayInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayInfoViewController.m; sourceTree = "<group>"; };
+		013534C918D2422700A13969 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		013534CB18D242F100A13969 /* nomadApp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nomadApp1.png; sourceTree = "<group>"; };
+		013534CD18D2458200A13969 /* allPlaces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = allPlaces.png; sourceTree = "<group>"; };
+		013534CE18D2458200A13969 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		013534CF18D2458200A13969 /* feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedback.png; sourceTree = "<group>"; };
+		013534D018D2458200A13969 /* seeAllPlaces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seeAllPlaces.png; sourceTree = "<group>"; };
+		013534D118D2458200A13969 /* wonders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonders.png; sourceTree = "<group>"; };
+		013E7CA018C767FB004FAA55 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		013E7CB218C79BD2004FAA55 /* TheMapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheMapPin.h; sourceTree = "<group>"; };
+		013E7CB318C79BD2004FAA55 /* TheMapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheMapPin.m; sourceTree = "<group>"; };
+		014163B018C6D64700CF19D1 /* MapLocationPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationPlaceViewController.h; sourceTree = "<group>"; };
+		014163B118C6D64700CF19D1 /* MapLocationPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationPlaceViewController.m; sourceTree = "<group>"; };
+		01454F9218C836780049D6C6 /* HotelHostalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelHostalViewController.h; sourceTree = "<group>"; };
+		01454F9318C836780049D6C6 /* HotelHostalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelHostalViewController.m; sourceTree = "<group>"; };
+		01454F9518C836890049D6C6 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		01454F9618C836890049D6C6 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		01454F9818C86D5B0049D6C6 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		01454F9918C86D5B0049D6C6 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		01454F9B18C8876C0049D6C6 /* TouristicCountriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristicCountriesViewController.h; sourceTree = "<group>"; };
+		01454F9C18C8876C0049D6C6 /* TouristicCountriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristicCountriesViewController.m; sourceTree = "<group>"; };
+		01454F9E18C88FC70049D6C6 /* BestPlacesByCountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestPlacesByCountryViewController.h; sourceTree = "<group>"; };
+		01454F9F18C88FC70049D6C6 /* BestPlacesByCountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestPlacesByCountryViewController.m; sourceTree = "<group>"; };
+		0146059818C8A2A700EF8504 /* MapAllPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAllPlacesViewController.h; sourceTree = "<group>"; };
+		0146059918C8A2A700EF8504 /* MapAllPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAllPlacesViewController.m; sourceTree = "<group>"; };
+		014EB9A818CD5100004DA220 /* DataDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDelegate.h; sourceTree = "<group>"; };
+		015EABE018CE18C8000D4E60 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		015EABE118CE18C8000D4E60 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		016D705918D0250400E9C373 /* BRAZIL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BRAZIL.png; sourceTree = "<group>"; };
+		016D705A18D0250400E9C373 /* Chichen Itza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chichen Itza.jpg"; sourceTree = "<group>"; };
+		016D705B18D0250400E9C373 /* Chichen Itza1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chichen Itza1.jpg"; sourceTree = "<group>"; };
+		016D705C18D0250400E9C373 /* CHINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHINA.png; sourceTree = "<group>"; };
+		016D705D18D0250400E9C373 /* Christ the Redeemer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Christ the Redeemer.jpg"; sourceTree = "<group>"; };
+		016D705E18D0250400E9C373 /* Christ the Redeemer1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Christ the Redeemer1.jpg"; sourceTree = "<group>"; };
+		016D705F18D0250400E9C373 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		016D706018D0250400E9C373 /* currentLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentLocation.png; sourceTree = "<group>"; };
+		016D706118D0250400E9C373 /* EGYPT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EGYPT.png; sourceTree = "<group>"; };
+		016D706218D0250400E9C373 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		016D706318D0250400E9C373 /* Fiesta Inn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fiesta Inn.png"; sourceTree = "<group>"; };
+		016D706418D0250400E9C373 /* Great Wall of China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Great Wall of China.jpg"; sourceTree = "<group>"; };
+		016D706518D0250400E9C373 /* Great Wall of China1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Great Wall of China1.jpg"; sourceTree = "<group>"; };
+		016D706618D0250400E9C373 /* Holiday Inn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holiday Inn.png"; sourceTree = "<group>"; };
+		016D706718D0250400E9C373 /* Hostelworld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hostelworld.png; sourceTree = "<group>"; };
+		016D706818D0250400E9C373 /* INDIA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INDIA.png; sourceTree = "<group>"; };
+		016D706918D0250400E9C373 /* ITALY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ITALY.png; sourceTree = "<group>"; };
+		016D706A18D0250400E9C373 /* JORDAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JORDAN.png; sourceTree = "<group>"; };
+		016D706B18D0250400E9C373 /* locationPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationPlace.png; sourceTree = "<group>"; };
+		016D706C18D0250400E9C373 /* Lonely Planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lonely Planet.png"; sourceTree = "<group>"; };
+		016D706D18D0250400E9C373 /* Machu Picchu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machu Picchu.jpg"; sourceTree = "<group>"; };
+		016D706E18D0250400E9C373 /* Machu Picchu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machu Picchu1.jpg"; sourceTree = "<group>"; };
+		016D706F18D0250400E9C373 /* mapType.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapType.png; sourceTree = "<group>"; };
+		016D707018D0250400E9C373 /* MEXICO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEXICO.png; sourceTree = "<group>"; };
+		016D707118D0250400E9C373 /* PERU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PERU.png; sourceTree = "<group>"; };
+		016D707218D0250400E9C373 /* Petra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Petra.jpg; sourceTree = "<group>"; };
+		016D707318D0250400E9C373 /* Petra1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Petra1.jpg; sourceTree = "<group>"; };
+		016D707418D0250400E9C373 /* Roman Colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roman Colosseum.jpg"; sourceTree = "<group>"; };
+		016D707518D0250400E9C373 /* Roman Colosseum1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roman Colosseum1.jpg"; sourceTree = "<group>"; };
+		016D707618D0250400E9C373 /* Taj Mahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taj Mahal.jpg"; sourceTree = "<group>"; };
+		016D707718D0250400E9C373 /* Taj Mahal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taj Mahal1.jpg"; sourceTree = "<group>"; };
+		016D707818D0250400E9C373 /* Tripadvisor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tripadvisor.png; sourceTree = "<group>"; };
+		016D707918D0250400E9C373 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		016D707A18D0250400E9C373 /* zoomIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomIn.png; sourceTree = "<group>"; };
+		016D707B18D0250400E9C373 /* zoomOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomOut.png; sourceTree = "<group>"; };
+		01A04BF618C4EFC300D069F3 /* travelGuideTryiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelGuideTryiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A04BF918C4EFC300D069F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01A04BFB18C4EFC300D069F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01A04BFD18C4EFC300D069F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01A04C0118C4EFC300D069F3 /* travelGuideTryiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelGuideTryiPad-Info.plist"; sourceTree = "<group>"; };
+		01A04C0318C4EFC300D069F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01A04C0518C4EFC300D069F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A04C0718C4EFC300D069F3 /* travelGuideTryiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "travelGuideTryiPad-Prefix.pch"; sourceTree = "<group>"; };
+		01A04C0818C4EFC300D069F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01A04C0918C4EFC300D069F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A04C0C18C4EFC300D069F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01A04C0E18C4EFC300D069F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01A04C0F18C4EFC300D069F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01A04C1118C4EFC300D069F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01A04C1718C4EFC300D069F3 /* travelGuideTryiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelGuideTryiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A04C1818C4EFC300D069F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01A04C2018C4EFC300D069F3 /* travelGuideTryiPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "travelGuideTryiPadTests-Info.plist"; sourceTree = "<group>"; };
+		01A04C2218C4EFC300D069F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01A04C2418C4EFC300D069F3 /* travelGuideTryiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travelGuideTryiPadTests.m; sourceTree = "<group>"; };
+		01A04C2E18C4F23900D069F3 /* TheHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheHeader.h; sourceTree = "<group>"; };
+		01A04C2F18C4F23900D069F3 /* TheHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheHeader.m; sourceTree = "<group>"; };
+		01A04C3118C4F24700D069F3 /* TheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCell.h; sourceTree = "<group>"; };
+		01A04C3218C4F24700D069F3 /* TheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheCell.m; sourceTree = "<group>"; };
+		01A04C3418C4F65C00D069F3 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		01A04C3518C4F65C00D069F3 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		01A4785E18D0D34300F90197 /* Chichen Itza2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chichen Itza2.jpg"; sourceTree = "<group>"; };
+		01A4785F18D0D34300F90197 /* Christ the Redeemer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Christ the Redeemer2.jpg"; sourceTree = "<group>"; };
+		01A4786018D0D34300F90197 /* Great Wall of China2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Great Wall of China2.jpg"; sourceTree = "<group>"; };
+		01A4786118D0D34300F90197 /* Machu Picchu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machu Picchu2.jpg"; sourceTree = "<group>"; };
+		01A4786218D0D34300F90197 /* Petra2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Petra2.jpg; sourceTree = "<group>"; };
+		01A4786318D0D34300F90197 /* Roman Colosseum2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roman Colosseum2.jpg"; sourceTree = "<group>"; };
+		01A4786418D0D34300F90197 /* Taj Mahal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taj Mahal2.jpg"; sourceTree = "<group>"; };
+		01A4786D18D0D44F00F90197 /* Hosteling International.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hosteling International.jpg"; sourceTree = "<group>"; };
+		01A4787118D0D5D800F90197 /* ARGENTINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARGENTINA.png; sourceTree = "<group>"; };
+		01A4787318D0D66300F90197 /* Acapulco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acapulco.jpg; sourceTree = "<group>"; };
+		01A4787418D0D66300F90197 /* Amman City And Citadel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amman City And Citadel.jpg"; sourceTree = "<group>"; };
+		01A4787518D0D66300F90197 /* Bariloche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bariloche.jpg; sourceTree = "<group>"; };
+		01A4787618D0D66300F90197 /* Buenos Aires.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buenos Aires.jpg"; sourceTree = "<group>"; };
+		01A4787718D0D66300F90197 /* Canals of Venice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canals of Venice.jpg"; sourceTree = "<group>"; };
+		01A4787818D0D66300F90197 /* Copper Canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Copper Canyon.jpg"; sourceTree = "<group>"; };
+		01A4787918D0D66300F90197 /* Fernando de Noronha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fernando de Noronha.jpg"; sourceTree = "<group>"; };
+		01A4787A18D0D66300F90197 /* Guanajuato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guanajuato.jpg; sourceTree = "<group>"; };
+		01A4787B18D0D66300F90197 /* Huacachina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Huacachina.jpg; sourceTree = "<group>"; };
+		01A4787C18D0D66300F90197 /* Iguazu Falls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Iguazu Falls.jpg"; sourceTree = "<group>"; };
+		01A4787D18D0D66300F90197 /* Jerash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jerash.jpg; sourceTree = "<group>"; };
+		01A4787E18D0D66300F90197 /* Kanha National Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kanha National Park.jpg"; sourceTree = "<group>"; };
+		01A4787F18D0D66300F90197 /* Karnak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Karnak.jpg; sourceTree = "<group>"; };
+		01A4788018D0D66300F90197 /* Kerala backwaters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kerala backwaters.jpg"; sourceTree = "<group>"; };
+		01A4788118D0D66300F90197 /* Lake Palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lake Palace.jpg"; sourceTree = "<group>"; };
+		01A4788218D0D66300F90197 /* Leshan Giant Buddha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leshan Giant Buddha.jpg"; sourceTree = "<group>"; };
+		01A4788318D0D66300F90197 /* Li River Cruise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Li River Cruise.jpg"; sourceTree = "<group>"; };
+		01A4788418D0D66300F90197 /* Los Glaciares.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Los Glaciares.jpg"; sourceTree = "<group>"; };
+		01A4788518D0D66300F90197 /* Manarola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manarola.jpg; sourceTree = "<group>"; };
+		01A4788618D0D66300F90197 /* Palolem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Palolem.jpg; sourceTree = "<group>"; };
+		01A4788818D0D66300F90197 /* Potala Palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Potala Palace.jpg"; sourceTree = "<group>"; };
+		01A4788918D0D66300F90197 /* Red Sea Reef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Red Sea Reef.jpg"; sourceTree = "<group>"; };
+		01A4788A18D0D66300F90197 /* Rio Carnival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rio Carnival.jpg"; sourceTree = "<group>"; };
+		01A4788B18D0D66300F90197 /* River Nile Cruise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "River Nile Cruise.jpg"; sourceTree = "<group>"; };
+		01A4788C18D0D66300F90197 /* San Gimignano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "San Gimignano.jpg"; sourceTree = "<group>"; };
+		01A4788D18D0D66300F90197 /* Santa Catalina Monastery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Santa Catalina Monastery.jpg"; sourceTree = "<group>"; };
+		01A4788E18D0D66300F90197 /* Teotihuacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Teotihuacan.jpg; sourceTree = "<group>"; };
+		01A4788F18D0D66300F90197 /* Trujillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trujillo.jpg; sourceTree = "<group>"; };
+		01A4789018D0D66300F90197 /* Uros Islands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Uros Islands.jpg"; sourceTree = "<group>"; };
+		01A4789118D0D66300F90197 /* Virupaksha Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Virupaksha Temple.jpg"; sourceTree = "<group>"; };
+		01A4789218D0D66300F90197 /* Wadi Rum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wadi Rum.jpg"; sourceTree = "<group>"; };
+		01E3579818D2B55C00262380 /* nomadAppAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nomadAppAbout.png; sourceTree = "<group>"; };
+		01E357A518D2CEF800262380 /* The Great Pyramid of Giza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Great Pyramid of Giza.jpg"; sourceTree = "<group>"; };
+		01EB5A9918C9103400BF6BE2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		01EFF0BF18D0D789005184C9 /* Piazza del Campo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Piazza del Campo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A04BF318C4EFC300D069F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EB5A9A18C9103400BF6BE2 /* libsqlite3.0.dylib in Frameworks */,
+				013E7CA118C767FB004FAA55 /* MapKit.framework in Frameworks */,
+				01A04BFC18C4EFC300D069F3 /* CoreGraphics.framework in Frameworks */,
+				01A04BFE18C4EFC300D069F3 /* UIKit.framework in Frameworks */,
+				01A04BFA18C4EFC300D069F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A04C1418C4EFC300D069F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A04C1918C4EFC300D069F3 /* XCTest.framework in Frameworks */,
+				01A04C1B18C4EFC300D069F3 /* UIKit.framework in Frameworks */,
+				01A04C1A18C4EFC300D069F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01454F8F18C835A80049D6C6 /* mainViews */ = {
+			isa = PBXGroup;
+			children = (
+				01A04C0E18C4EFC300D069F3 /* ViewController.h */,
+				01A04C0F18C4EFC300D069F3 /* ViewController.m */,
+				01454F9B18C8876C0049D6C6 /* TouristicCountriesViewController.h */,
+				01454F9C18C8876C0049D6C6 /* TouristicCountriesViewController.m */,
+				0146059818C8A2A700EF8504 /* MapAllPlacesViewController.h */,
+				0146059918C8A2A700EF8504 /* MapAllPlacesViewController.m */,
+				0108D5A918D10A990043BE32 /* CameraViewController.h */,
+				0108D5AA18D10A990043BE32 /* CameraViewController.m */,
+				015EABE018CE18C8000D4E60 /* FeedBackViewController.h */,
+				015EABE118CE18C8000D4E60 /* FeedBackViewController.m */,
+				0108D5AC18D1222E0043BE32 /* MainTabViewController.h */,
+				0108D5AD18D1222E0043BE32 /* MainTabViewController.m */,
+			);
+			name = mainViews;
+			sourceTree = "<group>";
+		};
+		01454F9018C835D60049D6C6 /* reusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				0127EC3E18C68AF0007B2FD1 /* DisplayInfoViewController.h */,
+				0127EC3F18C68AF0007B2FD1 /* DisplayInfoViewController.m */,
+				014163B018C6D64700CF19D1 /* MapLocationPlaceViewController.h */,
+				014163B118C6D64700CF19D1 /* MapLocationPlaceViewController.m */,
+				01454F9218C836780049D6C6 /* HotelHostalViewController.h */,
+				01454F9318C836780049D6C6 /* HotelHostalViewController.m */,
+				01454F9518C836890049D6C6 /* WebViewController.h */,
+				01454F9618C836890049D6C6 /* WebViewController.m */,
+				01454F9E18C88FC70049D6C6 /* BestPlacesByCountryViewController.h */,
+				01454F9F18C88FC70049D6C6 /* BestPlacesByCountryViewController.m */,
+				014EB9A818CD5100004DA220 /* DataDelegate.h */,
+				010F294B18CF82700019DC52 /* PopOverViewController.h */,
+				010F294C18CF82700019DC52 /* PopOverViewController.m */,
+			);
+			name = reusableViews;
+			sourceTree = "<group>";
+		};
+		01454F9118C835EF0049D6C6 /* customClasses */ = {
+			isa = PBXGroup;
+			children = (
+				01156B0818D968AD00A5D959 /* Reachability.h */,
+				01156B0918D968AD00A5D959 /* Reachability.m */,
+				010F292E18CF463A0019DC52 /* iCarousel.h */,
+				010F292F18CF463A0019DC52 /* iCarousel.m */,
+				01A04C2E18C4F23900D069F3 /* TheHeader.h */,
+				01A04C2F18C4F23900D069F3 /* TheHeader.m */,
+				01A04C3118C4F24700D069F3 /* TheCell.h */,
+				01A04C3218C4F24700D069F3 /* TheCell.m */,
+				01A04C3418C4F65C00D069F3 /* DataController.h */,
+				01A04C3518C4F65C00D069F3 /* DataController.m */,
+				013E7CB218C79BD2004FAA55 /* TheMapPin.h */,
+				013E7CB318C79BD2004FAA55 /* TheMapPin.m */,
+				01454F9818C86D5B0049D6C6 /* TableCell.h */,
+				01454F9918C86D5B0049D6C6 /* TableCell.m */,
+			);
+			name = customClasses;
+			sourceTree = "<group>";
+		};
+		016D709F18D0250D00E9C373 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				01156B0B18D97AD900A5D959 /* Fiesta Inndemo.png */,
+				01156B0C18D97AD900A5D959 /* Holiday Inndemo.png */,
+				01156B0D18D97AD900A5D959 /* Hostelworlddemo.png */,
+				01156B0E18D97AD900A5D959 /* Tripadvisordemo.png */,
+				01156B0F18D97AD900A5D959 /* Lonely Planetdemo.png */,
+				01E3579A18D2BB7700262380 /* bg */,
+				01A4786C18D0D41100F90197 /* places */,
+				01A4785D18D0D25000F90197 /* hotels */,
+				01A4785C18D0D23100F90197 /* icarousel */,
+				01A4785A18D0D1BF00F90197 /* flags */,
+				01A4785918D0D16400F90197 /* icons */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		01A04BED18C4EFC300D069F3 = {
+			isa = PBXGroup;
+			children = (
+				01A04BFF18C4EFC300D069F3 /* travelGuideTryiPad */,
+				01A04C1E18C4EFC300D069F3 /* travelGuideTryiPadTests */,
+				01A04BF818C4EFC300D069F3 /* Frameworks */,
+				01A04BF718C4EFC300D069F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A04BF718C4EFC300D069F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A04BF618C4EFC300D069F3 /* travelGuideTryiPad.app */,
+				01A04C1718C4EFC300D069F3 /* travelGuideTryiPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A04BF818C4EFC300D069F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01EB5A9918C9103400BF6BE2 /* libsqlite3.0.dylib */,
+				013E7CA018C767FB004FAA55 /* MapKit.framework */,
+				01A04BF918C4EFC300D069F3 /* Foundation.framework */,
+				01A04BFB18C4EFC300D069F3 /* CoreGraphics.framework */,
+				01A04BFD18C4EFC300D069F3 /* UIKit.framework */,
+				01A04C1818C4EFC300D069F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01A04BFF18C4EFC300D069F3 /* travelGuideTryiPad */ = {
+			isa = PBXGroup;
+			children = (
+				01A04C0818C4EFC300D069F3 /* AppDelegate.h */,
+				01A04C0918C4EFC300D069F3 /* AppDelegate.m */,
+				01A04C0B18C4EFC300D069F3 /* Main.storyboard */,
+				01454F8F18C835A80049D6C6 /* mainViews */,
+				01454F9018C835D60049D6C6 /* reusableViews */,
+				01454F9118C835EF0049D6C6 /* customClasses */,
+				016D709F18D0250D00E9C373 /* img */,
+				01A04C1118C4EFC300D069F3 /* Images.xcassets */,
+				01E3579818D2B55C00262380 /* nomadAppAbout.png */,
+				013534CB18D242F100A13969 /* nomadApp1.png */,
+				013534C918D2422700A13969 /* default@2x.png */,
+				01A04C0018C4EFC300D069F3 /* Supporting Files */,
+			);
+			path = travelGuideTryiPad;
+			sourceTree = "<group>";
+		};
+		01A04C0018C4EFC300D069F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A04C0118C4EFC300D069F3 /* travelGuideTryiPad-Info.plist */,
+				01A04C0218C4EFC300D069F3 /* InfoPlist.strings */,
+				01A04C0518C4EFC300D069F3 /* main.m */,
+				01A04C0718C4EFC300D069F3 /* travelGuideTryiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A04C1E18C4EFC300D069F3 /* travelGuideTryiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				01A04C2418C4EFC300D069F3 /* travelGuideTryiPadTests.m */,
+				01A04C1F18C4EFC300D069F3 /* Supporting Files */,
+			);
+			path = travelGuideTryiPadTests;
+			sourceTree = "<group>";
+		};
+		01A04C1F18C4EFC300D069F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A04C2018C4EFC300D069F3 /* travelGuideTryiPadTests-Info.plist */,
+				01A04C2118C4EFC300D069F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A4785918D0D16400F90197 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				013534CD18D2458200A13969 /* allPlaces.png */,
+				013534CE18D2458200A13969 /* camera.png */,
+				013534CF18D2458200A13969 /* feedback.png */,
+				013534D018D2458200A13969 /* seeAllPlaces.png */,
+				013534D118D2458200A13969 /* wonders.png */,
+				016D706218D0250400E9C373 /* facebook.png */,
+				016D707918D0250400E9C373 /* twitter.png */,
+				016D705F18D0250400E9C373 /* close.png */,
+				016D707A18D0250400E9C373 /* zoomIn.png */,
+				016D707B18D0250400E9C373 /* zoomOut.png */,
+				016D706F18D0250400E9C373 /* mapType.png */,
+				016D706B18D0250400E9C373 /* locationPlace.png */,
+				016D706018D0250400E9C373 /* currentLocation.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		01A4785A18D0D1BF00F90197 /* flags */ = {
+			isa = PBXGroup;
+			children = (
+				01A4787118D0D5D800F90197 /* ARGENTINA.png */,
+				016D705918D0250400E9C373 /* BRAZIL.png */,
+				016D705C18D0250400E9C373 /* CHINA.png */,
+				016D706118D0250400E9C373 /* EGYPT.png */,
+				016D706818D0250400E9C373 /* INDIA.png */,
+				016D706918D0250400E9C373 /* ITALY.png */,
+				016D706A18D0250400E9C373 /* JORDAN.png */,
+				016D707018D0250400E9C373 /* MEXICO.png */,
+				016D707118D0250400E9C373 /* PERU.png */,
+			);
+			name = flags;
+			sourceTree = "<group>";
+		};
+		01A4785C18D0D23100F90197 /* icarousel */ = {
+			isa = PBXGroup;
+			children = (
+				01A4785E18D0D34300F90197 /* Chichen Itza2.jpg */,
+				01A4785F18D0D34300F90197 /* Christ the Redeemer2.jpg */,
+				01A4786018D0D34300F90197 /* Great Wall of China2.jpg */,
+				01A4786118D0D34300F90197 /* Machu Picchu2.jpg */,
+				01A4786218D0D34300F90197 /* Petra2.jpg */,
+				01A4786318D0D34300F90197 /* Roman Colosseum2.jpg */,
+				01A4786418D0D34300F90197 /* Taj Mahal2.jpg */,
+				016D705B18D0250400E9C373 /* Chichen Itza1.jpg */,
+				016D705E18D0250400E9C373 /* Christ the Redeemer1.jpg */,
+				016D706518D0250400E9C373 /* Great Wall of China1.jpg */,
+				016D706E18D0250400E9C373 /* Machu Picchu1.jpg */,
+				016D707318D0250400E9C373 /* Petra1.jpg */,
+				016D707718D0250400E9C373 /* Taj Mahal1.jpg */,
+			);
+			name = icarousel;
+			sourceTree = "<group>";
+		};
+		01A4785D18D0D25000F90197 /* hotels */ = {
+			isa = PBXGroup;
+			children = (
+				01A4786D18D0D44F00F90197 /* Hosteling International.jpg */,
+				016D706318D0250400E9C373 /* Fiesta Inn.png */,
+				016D706618D0250400E9C373 /* Holiday Inn.png */,
+				016D706718D0250400E9C373 /* Hostelworld.png */,
+				016D706C18D0250400E9C373 /* Lonely Planet.png */,
+				016D707818D0250400E9C373 /* Tripadvisor.png */,
+			);
+			name = hotels;
+			sourceTree = "<group>";
+		};
+		01A4786C18D0D41100F90197 /* places */ = {
+			isa = PBXGroup;
+			children = (
+				01A4787318D0D66300F90197 /* Acapulco.jpg */,
+				01A4787418D0D66300F90197 /* Amman City And Citadel.jpg */,
+				01A4787518D0D66300F90197 /* Bariloche.jpg */,
+				01A4787618D0D66300F90197 /* Buenos Aires.jpg */,
+				01A4787718D0D66300F90197 /* Canals of Venice.jpg */,
+				01A4787818D0D66300F90197 /* Copper Canyon.jpg */,
+				01A4787918D0D66300F90197 /* Fernando de Noronha.jpg */,
+				01A4787A18D0D66300F90197 /* Guanajuato.jpg */,
+				01A4787B18D0D66300F90197 /* Huacachina.jpg */,
+				01A4787C18D0D66300F90197 /* Iguazu Falls.jpg */,
+				01A4787D18D0D66300F90197 /* Jerash.jpg */,
+				01A4787E18D0D66300F90197 /* Kanha National Park.jpg */,
+				01A4787F18D0D66300F90197 /* Karnak.jpg */,
+				01A4788018D0D66300F90197 /* Kerala backwaters.jpg */,
+				01A4788118D0D66300F90197 /* Lake Palace.jpg */,
+				01A4788218D0D66300F90197 /* Leshan Giant Buddha.jpg */,
+				01A4788318D0D66300F90197 /* Li River Cruise.jpg */,
+				01A4788418D0D66300F90197 /* Los Glaciares.jpg */,
+				01E357A518D2CEF800262380 /* The Great Pyramid of Giza.jpg */,
+				01A4788518D0D66300F90197 /* Manarola.jpg */,
+				01EFF0BF18D0D789005184C9 /* Piazza del Campo.jpg */,
+				01A4788618D0D66300F90197 /* Palolem.jpg */,
+				01A4788818D0D66300F90197 /* Potala Palace.jpg */,
+				01A4788918D0D66300F90197 /* Red Sea Reef.jpg */,
+				01A4788A18D0D66300F90197 /* Rio Carnival.jpg */,
+				01A4788B18D0D66300F90197 /* River Nile Cruise.jpg */,
+				01A4788C18D0D66300F90197 /* San Gimignano.jpg */,
+				01A4788D18D0D66300F90197 /* Santa Catalina Monastery.jpg */,
+				01A4788E18D0D66300F90197 /* Teotihuacan.jpg */,
+				01A4788F18D0D66300F90197 /* Trujillo.jpg */,
+				01A4789018D0D66300F90197 /* Uros Islands.jpg */,
+				01A4789118D0D66300F90197 /* Virupaksha Temple.jpg */,
+				01A4789218D0D66300F90197 /* Wadi Rum.jpg */,
+				016D705A18D0250400E9C373 /* Chichen Itza.jpg */,
+				016D705D18D0250400E9C373 /* Christ the Redeemer.jpg */,
+				016D706418D0250400E9C373 /* Great Wall of China.jpg */,
+				016D706D18D0250400E9C373 /* Machu Picchu.jpg */,
+				016D707218D0250400E9C373 /* Petra.jpg */,
+				016D707418D0250400E9C373 /* Roman Colosseum.jpg */,
+				016D707518D0250400E9C373 /* Roman Colosseum1.jpg */,
+				016D707618D0250400E9C373 /* Taj Mahal.jpg */,
+			);
+			name = places;
+			sourceTree = "<group>";
+		};
+		01E3579A18D2BB7700262380 /* bg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A04BF518C4EFC300D069F3 /* travelGuideTryiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A04C2818C4EFC300D069F3 /* Build configuration list for PBXNativeTarget "travelGuideTryiPad" */;
+			buildPhases = (
+				01A04BF218C4EFC300D069F3 /* Sources */,
+				01A04BF318C4EFC300D069F3 /* Frameworks */,
+				01A04BF418C4EFC300D069F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelGuideTryiPad;
+			productName = travelGuideTryiPad;
+			productReference = 01A04BF618C4EFC300D069F3 /* travelGuideTryiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01A04C1618C4EFC300D069F3 /* travelGuideTryiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A04C2B18C4EFC300D069F3 /* Build configuration list for PBXNativeTarget "travelGuideTryiPadTests" */;
+			buildPhases = (
+				01A04C1318C4EFC300D069F3 /* Sources */,
+				01A04C1418C4EFC300D069F3 /* Frameworks */,
+				01A04C1518C4EFC300D069F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01A04C1D18C4EFC300D069F3 /* PBXTargetDependency */,
+			);
+			name = travelGuideTryiPadTests;
+			productName = travelGuideTryiPadTests;
+			productReference = 01A04C1718C4EFC300D069F3 /* travelGuideTryiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A04BEE18C4EFC300D069F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Felipe Arturo Pérez Camargo";
+				TargetAttributes = {
+					01A04C1618C4EFC300D069F3 = {
+						TestTargetID = 01A04BF518C4EFC300D069F3;
+					};
+				};
+			};
+			buildConfigurationList = 01A04BF118C4EFC300D069F3 /* Build configuration list for PBXProject "travelGuideTryiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A04BED18C4EFC300D069F3;
+			productRefGroup = 01A04BF718C4EFC300D069F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A04BF518C4EFC300D069F3 /* travelGuideTryiPad */,
+				01A04C1618C4EFC300D069F3 /* travelGuideTryiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A04BF418C4EFC300D069F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4789E18D0D66300F90197 /* Kanha National Park.jpg in Resources */,
+				01A478A218D0D66300F90197 /* Leshan Giant Buddha.jpg in Resources */,
+				01A4786618D0D34300F90197 /* Christ the Redeemer2.jpg in Resources */,
+				016D708318D0250400E9C373 /* currentLocation.png in Resources */,
+				016D709018D0250400E9C373 /* Machu Picchu.jpg in Resources */,
+				01A478A018D0D66300F90197 /* Kerala backwaters.jpg in Resources */,
+				01A4787218D0D5D800F90197 /* ARGENTINA.png in Resources */,
+				016D709218D0250400E9C373 /* mapType.png in Resources */,
+				016D709E18D0250400E9C373 /* zoomOut.png in Resources */,
+				016D708A18D0250400E9C373 /* Hostelworld.png in Resources */,
+				01A478B218D0D66300F90197 /* Wadi Rum.jpg in Resources */,
+				013534D518D2458200A13969 /* seeAllPlaces.png in Resources */,
+				016D708E18D0250400E9C373 /* locationPlace.png in Resources */,
+				01A4786B18D0D34300F90197 /* Taj Mahal2.jpg in Resources */,
+				01A4786718D0D34300F90197 /* Great Wall of China2.jpg in Resources */,
+				01E357A618D2CEF800262380 /* The Great Pyramid of Giza.jpg in Resources */,
+				01A4789B18D0D66300F90197 /* Huacachina.jpg in Resources */,
+				01A4786A18D0D34300F90197 /* Roman Colosseum2.jpg in Resources */,
+				016D708B18D0250400E9C373 /* INDIA.png in Resources */,
+				01A04C1218C4EFC300D069F3 /* Images.xcassets in Resources */,
+				013534CA18D2422700A13969 /* default@2x.png in Resources */,
+				01A4789518D0D66300F90197 /* Bariloche.jpg in Resources */,
+				01A4789418D0D66300F90197 /* Amman City And Citadel.jpg in Resources */,
+				01E3579918D2B55C00262380 /* nomadAppAbout.png in Resources */,
+				01A478AD18D0D66300F90197 /* Santa Catalina Monastery.jpg in Resources */,
+				01A4789918D0D66300F90197 /* Fernando de Noronha.jpg in Resources */,
+				016D708618D0250400E9C373 /* Fiesta Inn.png in Resources */,
+				01A4789718D0D66300F90197 /* Canals of Venice.jpg in Resources */,
+				016D709618D0250400E9C373 /* Petra1.jpg in Resources */,
+				016D708818D0250400E9C373 /* Great Wall of China1.jpg in Resources */,
+				01A478A518D0D66300F90197 /* Manarola.jpg in Resources */,
+				01A4789C18D0D66300F90197 /* Iguazu Falls.jpg in Resources */,
+				01A4789618D0D66300F90197 /* Buenos Aires.jpg in Resources */,
+				016D707E18D0250400E9C373 /* Chichen Itza1.jpg in Resources */,
+				016D709818D0250400E9C373 /* Roman Colosseum1.jpg in Resources */,
+				01A4786918D0D34300F90197 /* Petra2.jpg in Resources */,
+				016D708F18D0250400E9C373 /* Lonely Planet.png in Resources */,
+				016D707C18D0250400E9C373 /* BRAZIL.png in Resources */,
+				01156B1318D97AD900A5D959 /* Tripadvisordemo.png in Resources */,
+				016D709318D0250400E9C373 /* MEXICO.png in Resources */,
+				01A4786518D0D34300F90197 /* Chichen Itza2.jpg in Resources */,
+				016D707F18D0250400E9C373 /* CHINA.png in Resources */,
+				016D709918D0250400E9C373 /* Taj Mahal.jpg in Resources */,
+				016D709118D0250400E9C373 /* Machu Picchu1.jpg in Resources */,
+				01A478A618D0D66300F90197 /* Palolem.jpg in Resources */,
+				01A04C0418C4EFC300D069F3 /* InfoPlist.strings in Resources */,
+				016D708018D0250400E9C373 /* Christ the Redeemer.jpg in Resources */,
+				01156B1118D97AD900A5D959 /* Holiday Inndemo.png in Resources */,
+				01A4789818D0D66300F90197 /* Copper Canyon.jpg in Resources */,
+				01A478AC18D0D66300F90197 /* San Gimignano.jpg in Resources */,
+				01A478AA18D0D66300F90197 /* Rio Carnival.jpg in Resources */,
+				01A4789D18D0D66300F90197 /* Jerash.jpg in Resources */,
+				016D708C18D0250400E9C373 /* ITALY.png in Resources */,
+				01156B1018D97AD900A5D959 /* Fiesta Inndemo.png in Resources */,
+				01EFF0C018D0D789005184C9 /* Piazza del Campo.jpg in Resources */,
+				016D708718D0250400E9C373 /* Great Wall of China.jpg in Resources */,
+				01A478AF18D0D66300F90197 /* Trujillo.jpg in Resources */,
+				01A478A318D0D66300F90197 /* Li River Cruise.jpg in Resources */,
+				016D709D18D0250400E9C373 /* zoomIn.png in Resources */,
+				013534D218D2458200A13969 /* allPlaces.png in Resources */,
+				016D708918D0250400E9C373 /* Holiday Inn.png in Resources */,
+				01A4786E18D0D44F00F90197 /* Hosteling International.jpg in Resources */,
+				016D709518D0250400E9C373 /* Petra.jpg in Resources */,
+				01A4789A18D0D66300F90197 /* Guanajuato.jpg in Resources */,
+				01A4789F18D0D66300F90197 /* Karnak.jpg in Resources */,
+				01A478B018D0D66300F90197 /* Uros Islands.jpg in Resources */,
+				01A478A118D0D66300F90197 /* Lake Palace.jpg in Resources */,
+				01A04C0D18C4EFC300D069F3 /* Main.storyboard in Resources */,
+				01A478AE18D0D66300F90197 /* Teotihuacan.jpg in Resources */,
+				01A478AB18D0D66300F90197 /* River Nile Cruise.jpg in Resources */,
+				013534D418D2458200A13969 /* feedback.png in Resources */,
+				01A478B118D0D66300F90197 /* Virupaksha Temple.jpg in Resources */,
+				01A478A418D0D66300F90197 /* Los Glaciares.jpg in Resources */,
+				01A4789318D0D66300F90197 /* Acapulco.jpg in Resources */,
+				01156B1418D97AD900A5D959 /* Lonely Planetdemo.png in Resources */,
+				016D708118D0250400E9C373 /* Christ the Redeemer1.jpg in Resources */,
+				016D708418D0250400E9C373 /* EGYPT.png in Resources */,
+				01156B1218D97AD900A5D959 /* Hostelworlddemo.png in Resources */,
+				013534D318D2458200A13969 /* camera.png in Resources */,
+				01A478A818D0D66300F90197 /* Potala Palace.jpg in Resources */,
+				016D708D18D0250400E9C373 /* JORDAN.png in Resources */,
+				016D708518D0250400E9C373 /* facebook.png in Resources */,
+				013534CC18D242F100A13969 /* nomadApp1.png in Resources */,
+				016D708218D0250400E9C373 /* close.png in Resources */,
+				016D707D18D0250400E9C373 /* Chichen Itza.jpg in Resources */,
+				016D709718D0250400E9C373 /* Roman Colosseum.jpg in Resources */,
+				016D709A18D0250400E9C373 /* Taj Mahal1.jpg in Resources */,
+				013534D618D2458200A13969 /* wonders.png in Resources */,
+				01A4786818D0D34300F90197 /* Machu Picchu2.jpg in Resources */,
+				016D709C18D0250400E9C373 /* twitter.png in Resources */,
+				01A478A918D0D66300F90197 /* Red Sea Reef.jpg in Resources */,
+				016D709B18D0250400E9C373 /* Tripadvisor.png in Resources */,
+				016D709418D0250400E9C373 /* PERU.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A04C1518C4EFC300D069F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A04C2318C4EFC300D069F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A04BF218C4EFC300D069F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0127EC4018C68AF0007B2FD1 /* DisplayInfoViewController.m in Sources */,
+				0108D5AE18D1222E0043BE32 /* MainTabViewController.m in Sources */,
+				0108D5AB18D10A990043BE32 /* CameraViewController.m in Sources */,
+				01A04C3318C4F24700D069F3 /* TheCell.m in Sources */,
+				01454FA018C88FC70049D6C6 /* BestPlacesByCountryViewController.m in Sources */,
+				01454F9718C836890049D6C6 /* WebViewController.m in Sources */,
+				01454F9418C836780049D6C6 /* HotelHostalViewController.m in Sources */,
+				01A04C3018C4F23900D069F3 /* TheHeader.m in Sources */,
+				010F294D18CF82700019DC52 /* PopOverViewController.m in Sources */,
+				01A04C1018C4EFC300D069F3 /* ViewController.m in Sources */,
+				01156B0A18D968AD00A5D959 /* Reachability.m in Sources */,
+				010F293018CF463A0019DC52 /* iCarousel.m in Sources */,
+				015EABE218CE18C8000D4E60 /* FeedBackViewController.m in Sources */,
+				01454F9A18C86D5B0049D6C6 /* TableCell.m in Sources */,
+				013E7CB418C79BD2004FAA55 /* TheMapPin.m in Sources */,
+				014163B218C6D64700CF19D1 /* MapLocationPlaceViewController.m in Sources */,
+				01A04C0A18C4EFC300D069F3 /* AppDelegate.m in Sources */,
+				0146059A18C8A2A700EF8504 /* MapAllPlacesViewController.m in Sources */,
+				01A04C0618C4EFC300D069F3 /* main.m in Sources */,
+				01A04C3618C4F65C00D069F3 /* DataController.m in Sources */,
+				01454F9D18C8876C0049D6C6 /* TouristicCountriesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A04C1318C4EFC300D069F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A04C2518C4EFC300D069F3 /* travelGuideTryiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A04C1D18C4EFC300D069F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01A04BF518C4EFC300D069F3 /* travelGuideTryiPad */;
+			targetProxy = 01A04C1C18C4EFC300D069F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01A04C0218C4EFC300D069F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A04C0318C4EFC300D069F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01A04C0B18C4EFC300D069F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A04C0C18C4EFC300D069F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01A04C2118C4EFC300D069F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A04C2218C4EFC300D069F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A04C2618C4EFC300D069F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		01A04C2718C4EFC300D069F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A04C2918C4EFC300D069F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelGuideTryiPad/travelGuideTryiPad-Prefix.pch";
+				INFOPLIST_FILE = "travelGuideTryiPad/travelGuideTryiPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01A04C2A18C4EFC300D069F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonathan Alcantar (9TW4M4TX8X)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelGuideTryiPad/travelGuideTryiPad-Prefix.pch";
+				INFOPLIST_FILE = "travelGuideTryiPad/travelGuideTryiPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01A04C2C18C4EFC300D069F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travelGuideTryiPad.app/travelGuideTryiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelGuideTryiPad/travelGuideTryiPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "travelGuideTryiPadTests/travelGuideTryiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		01A04C2D18C4EFC300D069F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travelGuideTryiPad.app/travelGuideTryiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "travelGuideTryiPad/travelGuideTryiPad-Prefix.pch";
+				INFOPLIST_FILE = "travelGuideTryiPadTests/travelGuideTryiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A04BF118C4EFC300D069F3 /* Build configuration list for PBXProject "travelGuideTryiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A04C2618C4EFC300D069F3 /* Debug */,
+				01A04C2718C4EFC300D069F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A04C2818C4EFC300D069F3 /* Build configuration list for PBXNativeTarget "travelGuideTryiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A04C2918C4EFC300D069F3 /* Debug */,
+				01A04C2A18C4EFC300D069F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A04C2B18C4EFC300D069F3 /* Build configuration list for PBXNativeTarget "travelGuideTryiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A04C2C18C4EFC300D069F3 /* Debug */,
+				01A04C2D18C4EFC300D069F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A04BEE18C4EFC300D069F3 /* Project object */;
+}
